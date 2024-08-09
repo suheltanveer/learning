@@ -24,3 +24,31 @@ git config --global core.autocrlf true
 
 // for mac/linux
 git config --global core.autocrlf input
+
+
+----------------------------------------------------------------
+
+USAGE
+
+// make a folder
+mkdir newfolder
+
+// cd into the folder
+cd newfolder
+
+// initialize a git repository
+git init
+
+// initialize a repo
+gh repo create
+
+// follow command line prompts
+
+git push
+
+
+// check status
+git status
+
+// check status minimal
+git status -s
